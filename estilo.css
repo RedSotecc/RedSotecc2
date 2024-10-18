@@ -13,17 +13,17 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 90%; /* Cambiado para pantallas pequeñas */
-    max-width: 600px; /* Máximo ancho para evitar que crezca demasiado */
-    height: 90%; /* Mantener el alto */
-    overflow: hidden; /* Evita que el contenido sobresalga */
+    width: 90%; 
+    max-width: 400px; 
+    height: 90%;
+    overflow: hidden; 
 }
 
 .menu {
     display: flex;
-    justify-content: space-around; /* Espaciado uniforme */
+    justify-content: space-around; 
     background-color: #007BFF;
-    padding: 10px; /* Ajustado para menor espacio */
+    padding: 10px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -33,10 +33,10 @@ body {
     text-decoration: none;
     text-align: center;
     transition: color 0.3s;
-    flex: 1; /* Ocupa espacio igual entre los enlaces */
-    display: flex; /* Usar flexbox para alinear el icono y el texto */
-    flex-direction: column; /* Colocar icono arriba del texto */
-    align-items: center; /* Centrar contenido */
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .menu a:hover {
@@ -44,32 +44,32 @@ body {
 }
 
 .menu a .icono {
-    width: 24px; /* Tamaño del icono */
-    height: 24px; /* Tamaño del icono */
+    width: 24px; 
+    height: 24px;
 }
 
 .titulo {
-    font-size: 12px; /* Tamaño de fuente más pequeño */
-    line-height: 1.2; /* Asegura un buen espaciado */
-    margin-top: 4px; /* Espacio entre el icono y el texto */
+    font-size: 12px; 
+    line-height: 1.2; 
+    margin-top: 4px;
 }
 
 .contenido {
-    display: none; /* Ocultar por defecto */
-    padding: 10px; /* Espaciado interior */
-    height: calc(100% - 60px); /* Altura menos la altura del menú */
-    overflow-y: auto; /* Habilitar desplazamiento */
+    display: none; 
+    padding: 10px; 
+    height: calc(100% - 60px); 
+    overflow-y: auto; 
 }
 
 #seccion1 {
-    display: block; /* Mostrar la sección inicial */
+    display: block; 
 }
 
 .empresalog {
     width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto; /* Centrar imagen */
+    margin: 20px auto; 
 }
 
 .catalogo {
@@ -91,8 +91,9 @@ body {
 
 .contacto-lista {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
+    
 }
 
 .contacto-item {
@@ -131,3 +132,4 @@ body {
         overflow-y: auto; /* Habilitar desplazamiento */
     }
 }
+
